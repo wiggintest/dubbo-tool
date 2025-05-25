@@ -1,0 +1,83 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.wiggin.dubbo-tool</id>
+
+    <name>dubbo-tool</name>
+
+    <vendor email="474894120@qq.com">Wiggin</vendor>
+
+    <description>
+        <![CDATA[
+        This is a plugin for initiating local Dubbo invoke, which can quickly generate calling methods and parameters.
+        <br>
+        Key Features：<br>
+        1、Quickly generate Dubbo invocation methods and parameters
+        <br>
+        2、User-friendly interface integrated in IDEA
+        <br>
+        3、Right-click to trigger calls on interface methods
+        <br>
+        Applicable Scenarios:
+        <br>
+        1、Directly invoke and debug Dubbo services in development environment
+        <br>
+        2、Instantly verify request/response data structures without writing test cases
+        <br>
+        3、Test providers without consumer dependencies
+
+      <a href="https://github.com/wiggintest/dubbo-tool">dubbo-tool</a>
+      <br/>
+      <br/>
+      <b>English Introduction</b>
+      <ul>
+          <li>1. Go to the IDEA Settings interface, select Tools → Dubbo-Tool, and configure the Dubbo invoke address (currently supporting Zookeeper registry and direct Dubbo calls).</li>
+          <li>2. Right-click the target interface method, select and click the RunDubboTool option. In the pop-up window, choose the input parameter fields (all selected by default), click OK, and the Dubbo call main panel will appear.</li>
+          <li>3. Select the Dubbo call address, modify the Dubbo call parameters, and then click the Invoke button to initiate the call.</li>
+          <li>4. When the call is successful, the Response section on the right will display the returned result. If an exception occurs, the corresponding error stack trace will be shown.</li>
+      </ul>
+
+      <b>中文介绍</b>
+      <br/>
+      一款用于帮助使用 IntelliJ IDEA 编写代码的研发人员，快速在本地调用Dubbo服务的插件工具。
+      <br/>
+      <ul>
+          <li>1. 进入idea配置界面，选择Tools --> dubbo-tool，配置dubbo调用的地址（目前支持zookeeper注册中心跟dubbo直接调用）</li>
+          <li>2. 鼠标右键要调用的接口方法，选择点击RunDubboTool方法，在弹出框中选择入参字段（默认选中所有），点击ok，弹出dubbo调用主面板</li>
+          <li>3. 选择Dubbo调用地址，修改Dubbo调用入参，然后点击Invoke按钮，即可发起调用</li>
+          <li>4. 成功调用时，右侧Response区域会显示调用返回的结果。如果调用异常，则显示对应的异常栈</li>
+      </ul>
+
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.java</depends>
+    <depends>com.intellij.modules.json</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService
+                serviceImplementation="com.wiggin.dubbotool.persistent.DubboSettingPersistentState"/>
+        <applicationService
+                serviceImplementation="com.wiggin.dubbotool.persistent.DubboCollectionPersistentState"/>
+        <applicationConfigurable
+                parentId="tools"
+                instance="com.wiggin.dubbotool.ui.setting.DubboToolSettingsConfigurable"
+                id="com.wiggin.dubbotool.ui.setting.DubboToolSettingsConfigurable"
+                displayName="dubbo-tool"/>
+        <toolWindow factoryClass="com.wiggin.dubbotool.DubboToolWindow"
+                    id="dubbo-tool-window"
+                    anchor="bottom"
+                    icon="/icon/dubboTool.svg"/>
+    </extensions>
+    <actions>
+        <action id="dubbo-tool-editor-popup-action" class="com.wiggin.dubbotool.action.DubboToolEditorPopupAction"
+                text="RunDubboTool" description="RunDubboTool">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

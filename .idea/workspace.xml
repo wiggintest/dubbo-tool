@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a27d04e4-4c9e-4110-b2f4-f3683db8979d" name="Changes" comment="feat(升级): init">
+      <change afterPath="$PROJECT_DIR$/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/wechat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Action" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="history_bug_fix" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1748154151" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="history_bug_fix" />
+                    <option name="lastUsedInstant" value="1747184932" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="history-ui" />
+                    <option name="lastUsedInstant" value="1743991852" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="add-history" />
+                    <option name="lastUsedInstant" value="1743991700" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ide/IdeKeyboardFocusManager.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/ex/ActionUtil.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/impl/ActionButton.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/impl/ActionManagerImpl.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/options/Configurable.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/wm/ex/ToolWindowEx.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/CommonActionsPanel.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/PopupHandler.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/ToolbarDecorator.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionItemEditor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionModelEditor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/table/TableModelEditor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/lib-client.jar!/com/jediterm/core/input/MouseEvent.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util-8.jar!/com/intellij/util/containers/OrderedSet.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util-8.jar!/kotlin/ResultKt.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util.jar!/com/intellij/util/messages/MessageBus.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/config/ReferenceConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/dubbo/DubboRegistryFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/support/AbstractRegistryFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperClient.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperTransporter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/rpc/service/GenericService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/EventListener.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Component.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ActionEvent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ItemEvent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseEvent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseListener.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/ComboBoxEditor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/DefaultListModel.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/DefaultListSelectionModel.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComboBox.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JTextPane.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/event/ListSelectionEvent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/text/JTextComponent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/text/Style.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2l0LXEo5MED6TWkuD55xoBjbMjM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build dubbo-tool.executor": "Run",
+    "Gradle.Download IntelliJ Platform sources.executor": "Run",
+    "Gradle.Run Plugin.executor": "Run",
+    "Gradle.dubbo-tool [:Main.main()].executor": "Run",
+    "Gradle.dubbo-tool [:com.wiggin.dubbotool.domain.parser.support.ArrayValueSupport.main()].executor": "Run",
+    "Gradle.dubbo-tool [:com.wiggin.dubbotool.domain.parser.support.NumberValueSupport.main()].executor": "Run",
+    "Gradle.dubbo-tool [:com.wiggin.dubbotool.test.TEst.main()].executor": "Run",
+    "Gradle.dubbo-tool [:com.wiggin.dubbotool.util.JsonUtil.main()].executor": "Run",
+    "Gradle.dubbo-tool [:com.wiggin.dubbotool.util.User.main()].executor": "Run",
+    "Gradle.dubbo-tool [buildPlugin].executor": "Run",
+    "Gradle.dubbo-tool [build].executor": "Run",
+    "Gradle.dubbo-tool [clean].executor": "Run",
+    "Gradle.dubbo-tool [composedJar].executor": "Run",
+    "JUnit.Whole project.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "272",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wiggin/dubbo/dubbo-tool/image",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wiggin.dubbotool.ui.listener" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/src/main/resources/icon" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/support" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wiggin.dubbotool.ui.listener" />
+      <recent name="com.wiggin.dubbotool.ui.collection" />
+      <recent name="com.wiggin.dubbotool.persistent" />
+      <recent name="com.wiggin.dubbotool.setting" />
+      <recent name="com.wiggin.dubbotool.domain.parser.support" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.dubbo-tool [buildPlugin]">
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiggin.dubbotool.util.User" />
+      <module name="com.wiggin.dubbo-tool.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiggin.dubbotool.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dubbo-tool [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo-tool [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo-tool [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.dubbo-tool [buildPlugin]" />
+        <item itemvalue="Gradle.dubbo-tool [clean]" />
+        <item itemvalue="JUnit.Whole project" />
+        <item itemvalue="Gradle.dubbo-tool [build]" />
+        <item itemvalue="Application.User" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a27d04e4-4c9e-4110-b2f4-f3683db8979d" name="Changes" comment="" />
+      <created>1724312087037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724312087037</updated>
+      <workItem from="1724312088462" duration="2580000" />
+      <workItem from="1724319381818" duration="5620000" />
+      <workItem from="1724379537769" duration="11924000" />
+      <workItem from="1724633865485" duration="2267000" />
+      <workItem from="1724658995357" duration="31837000" />
+      <workItem from="1724919436988" duration="4139000" />
+      <workItem from="1724925184508" duration="10255000" />
+      <workItem from="1726058579051" duration="2553000" />
+      <workItem from="1726102795493" duration="607000" />
+      <workItem from="1726145250085" duration="2829000" />
+      <workItem from="1726195828754" duration="12447000" />
+      <workItem from="1726621572815" duration="586000" />
+      <workItem from="1726622909700" duration="520000" />
+      <workItem from="1726627454676" duration="11514000" />
+      <workItem from="1726733026428" duration="8214000" />
+      <workItem from="1726907256614" duration="2882000" />
+      <workItem from="1726928932734" duration="28940000" />
+      <workItem from="1727187187061" duration="8663000" />
+      <workItem from="1727312386365" duration="598000" />
+      <workItem from="1727313759210" duration="67527000" />
+      <workItem from="1727590054951" duration="16889000" />
+      <workItem from="1727661884708" duration="3598000" />
+      <workItem from="1728544233228" duration="587000" />
+      <workItem from="1728560164017" duration="597000" />
+      <workItem from="1728871665112" duration="1636000" />
+      <workItem from="1729044238005" duration="46285000" />
+      <workItem from="1729249537623" duration="7488000" />
+      <workItem from="1729305809195" duration="12500000" />
+      <workItem from="1729341310398" duration="151000" />
+      <workItem from="1729475797026" duration="18756000" />
+      <workItem from="1729600401292" duration="176000" />
+      <workItem from="1729600592266" duration="1029000" />
+      <workItem from="1729601690100" duration="5156000" />
+      <workItem from="1729669370230" duration="2096000" />
+      <workItem from="1729673797522" duration="1000" />
+      <workItem from="1729677281449" duration="973000" />
+      <workItem from="1729824630510" duration="305000" />
+      <workItem from="1730103894855" duration="2484000" />
+      <workItem from="1730169233422" duration="1556000" />
+      <workItem from="1730173127531" duration="8239000" />
+      <workItem from="1730425541064" duration="801000" />
+      <workItem from="1730471622652" duration="10270000" />
+      <workItem from="1730517895196" duration="32484000" />
+      <workItem from="1731207314440" duration="5724000" />
+      <workItem from="1731304311759" duration="135000" />
+      <workItem from="1731304473483" duration="9905000" />
+      <workItem from="1731392787180" duration="334000" />
+      <workItem from="1731413254293" duration="12189000" />
+      <workItem from="1731502533123" duration="5419000" />
+      <workItem from="1731546480634" duration="593000" />
+      <workItem from="1731737163468" duration="1888000" />
+      <workItem from="1731739164929" duration="4844000" />
+      <workItem from="1731744170960" duration="1043000" />
+      <workItem from="1731745242279" duration="3291000" />
+      <workItem from="1731913648046" duration="5328000" />
+      <workItem from="1732082351979" duration="2262000" />
+      <workItem from="1732155164116" duration="585000" />
+      <workItem from="1732171900478" duration="965000" />
+      <workItem from="1732674279837" duration="4799000" />
+      <workItem from="1732694640492" duration="9773000" />
+      <workItem from="1732929497571" duration="2645000" />
+      <workItem from="1732948785338" duration="19236000" />
+      <workItem from="1733057475997" duration="2783000" />
+      <workItem from="1733209242113" duration="7364000" />
+      <workItem from="1733362211343" duration="606000" />
+      <workItem from="1733385042922" duration="722000" />
+      <workItem from="1733385793098" duration="1330000" />
+      <workItem from="1735886355598" duration="4176000" />
+      <workItem from="1736476355628" duration="1587000" />
+      <workItem from="1736478505788" duration="2308000" />
+      <workItem from="1736730163846" duration="594000" />
+      <workItem from="1739243603980" duration="3070000" />
+      <workItem from="1739415018327" duration="593000" />
+      <workItem from="1739416867216" duration="553000" />
+      <workItem from="1739776752806" duration="591000" />
+      <workItem from="1740015457901" duration="185000" />
+      <workItem from="1740029875924" duration="570000" />
+      <workItem from="1740213585413" duration="568000" />
+      <workItem from="1740964086236" duration="584000" />
+      <workItem from="1741143020215" duration="213000" />
+      <workItem from="1741143420972" duration="597000" />
+      <workItem from="1741326282518" duration="597000" />
+      <workItem from="1741331358824" duration="590000" />
+      <workItem from="1742626093173" duration="996000" />
+      <workItem from="1742627144299" duration="6947000" />
+      <workItem from="1742782365437" duration="125000" />
+      <workItem from="1742806492808" duration="593000" />
+      <workItem from="1743383766085" duration="12141000" />
+      <workItem from="1743987792681" duration="534000" />
+      <workItem from="1743989794320" duration="1777000" />
+      <workItem from="1743992952499" duration="24563000" />
+      <workItem from="1744248100873" duration="11871000" />
+      <workItem from="1744268983684" duration="880000" />
+      <workItem from="1744269898488" duration="6498000" />
+      <workItem from="1744278087726" duration="1540000" />
+      <workItem from="1744279726288" duration="16528000" />
+      <workItem from="1744593634230" duration="2000" />
+      <workItem from="1744593944235" duration="16165000" />
+      <workItem from="1744875280945" duration="162000" />
+      <workItem from="1744875459271" duration="344000" />
+      <workItem from="1744875933497" duration="11000" />
+      <workItem from="1744876109592" duration="1000" />
+      <workItem from="1744876415825" duration="6736000" />
+      <workItem from="1744967918946" duration="2501000" />
+      <workItem from="1745039758071" duration="3069000" />
+      <workItem from="1745218919749" duration="441000" />
+      <workItem from="1745289080035" duration="597000" />
+      <workItem from="1745552640508" duration="947000" />
+      <workItem from="1745559309530" duration="658000" />
+      <workItem from="1745560010570" duration="11380000" />
+      <workItem from="1745717451627" duration="46000" />
+      <workItem from="1745717574763" duration="650000" />
+      <workItem from="1746584908969" duration="620000" />
+      <workItem from="1746756354322" duration="743000" />
+      <workItem from="1747028440603" duration="541000" />
+      <workItem from="1747029155709" duration="1298000" />
+      <workItem from="1747118361670" duration="2505000" />
+      <workItem from="1747125368644" duration="293000" />
+      <workItem from="1747125715210" duration="9500000" />
+      <workItem from="1747201592981" duration="747000" />
+      <workItem from="1747277342834" duration="5035000" />
+      <workItem from="1747373955408" duration="598000" />
+      <workItem from="1747466810078" duration="34000" />
+      <workItem from="1747580351803" duration="596000" />
+      <workItem from="1747809644951" duration="591000" />
+      <workItem from="1748151931781" duration="6808000" />
+    </task>
+    <task id="LOCAL-00007" summary="feat(init): 类型支持">
+      <option name="closed" value="true" />
+      <created>1727343559877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727343559877</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(init): 类解析">
+      <option name="closed" value="true" />
+      <created>1727419915398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727419915398</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(init): 字段解析">
+      <option name="closed" value="true" />
+      <created>1727425089765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727425089765</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(init): 完成字段解析展示">
+      <option name="closed" value="true" />
+      <created>1727516029528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727516029528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(init): 完成字段解析展示">
+      <option name="closed" value="true" />
+      <created>1727542107366</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727542107367</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(init): 完成字段解析展示">
+      <option name="closed" value="true" />
+      <created>1727588508317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727588508318</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(init): 完善UI">
+      <option name="closed" value="true" />
+      <created>1727605804621</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727605804621</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat(init): 完善UI">
+      <option name="closed" value="true" />
+      <created>1727682510417</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727682510417</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(init): 完善服务调用">
+      <option name="closed" value="true" />
+      <created>1729157027046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729157027046</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(init): 完善服务调用">
+      <option name="closed" value="true" />
+      <created>1729183939024</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729183939024</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(init): 回显结果">
+      <option name="closed" value="true" />
+      <created>1729250112023</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729250112023</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat(init): 回显结果">
+      <option name="closed" value="true" />
+      <created>1729314109114</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729314109114</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat(init): json面板">
+      <option name="closed" value="true" />
+      <created>1729323148870</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729323148870</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat(init): list解析">
+      <option name="closed" value="true" />
+      <created>1729579927698</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729579927698</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat(init): 完善">
+      <option name="closed" value="true" />
+      <created>1729592213856</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729592213856</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat(init): 完善dubbo调用">
+      <option name="closed" value="true" />
+      <created>1729663922195</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729663922195</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat(init): 完善dubbo调用">
+      <option name="closed" value="true" />
+      <created>1730170490878</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730170490878</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(init): dubbo 配置">
+      <option name="closed" value="true" />
+      <created>1730475978962</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730475978962</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat(init): dubbo 配置">
+      <option name="closed" value="true" />
+      <created>1730541321775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541321775</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat(init): dubbo 配置">
+      <option name="closed" value="true" />
+      <created>1730617672217</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730617672217</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat(init): dubbo 配置">
+      <option name="closed" value="true" />
+      <created>1730646087375</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730646087375</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat(init): 完善dubbo调用">
+      <option name="closed" value="true" />
+      <created>1730770059220</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730770059220</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat(init): 改类名">
+      <option name="closed" value="true" />
+      <created>1731250312918</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250312918</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat(init): 修复问题">
+      <option name="closed" value="true" />
+      <created>1731373208070</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731373208070</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat(init): 修复问题">
+      <option name="closed" value="true" />
+      <created>1731413455383</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731413455383</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat(历史): 新增历史持久化">
+      <option name="closed" value="true" />
+      <created>1731424570792</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731424570792</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat(历史): 调整包结构">
+      <option name="closed" value="true" />
+      <created>1731425767334</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731425767334</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat(升级): 升级版本">
+      <option name="closed" value="true" />
+      <created>1731745330986</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731745330986</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat(升级): 新增icon">
+      <option name="closed" value="true" />
+      <created>1731749216735</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731749216735</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat(升级): 修复编辑异常">
+      <option name="closed" value="true" />
+      <created>1731984728799</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1731984728799</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat(升级): 配置单元格不允许编辑">
+      <option name="closed" value="true" />
+      <created>1732686523350</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732686523350</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat(升级): 修改配置克隆方式">
+      <option name="closed" value="true" />
+      <created>1733032063796</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1733032063796</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat(升级): 调整结构">
+      <option name="closed" value="true" />
+      <created>1733047367016</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1733047367016</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat(升级): 调整结构">
+      <option name="closed" value="true" />
+      <created>1733053856840</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1733053856840</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat(升级): 异步调用">
+      <option name="closed" value="true" />
+      <created>1733385601852</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1733385601852</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat(升级): 异步调用异常时显示异常栈">
+      <option name="closed" value="true" />
+      <created>1742626849372</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1742626849372</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat(升级): 无参方法调用">
+      <option name="closed" value="true" />
+      <created>1742780421320</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1742780421320</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat(升级): 添加注释">
+      <option name="closed" value="true" />
+      <created>1743580274428</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1743580274428</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat(升级): 添加调用历史ui">
+      <option name="closed" value="true" />
+      <created>1744011976334</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1744011976334</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat(升级): 添加调用历史逻辑">
+      <option name="closed" value="true" />
+      <created>1744254426317</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1744254426317</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat(升级): 调整代码结构">
+      <option name="closed" value="true" />
+      <created>1744262992311</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1744262992311</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat(升级): 新增保存">
+      <option name="closed" value="true" />
+      <created>1744277881484</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1744277881484</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat(升级): 新增保存">
+      <option name="closed" value="true" />
+      <created>1744280085677</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280085677</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat(升级): 新增删除逻辑">
+      <option name="closed" value="true" />
+      <created>1744354870467</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1744354870469</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat(升级): 修复问题">
+      <option name="closed" value="true" />
+      <created>1745039870351</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1745039870352</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat(升级): 修复问题">
+      <option name="closed" value="true" />
+      <created>1745716336228</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1745716336228</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat(升级): 修复问题">
+      <option name="closed" value="true" />
+      <created>1747188200455</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1747188200456</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat(升级): 修复问题">
+      <option name="closed" value="true" />
+      <created>1747277389888</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1747277389888</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat(升级): init">
+      <option name="closed" value="true" />
+      <created>1748156064641</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1748156064641</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(init): list解析" />
+    <MESSAGE value="feat(init): 完善" />
+    <MESSAGE value="feat(init): dubbo 配置" />
+    <MESSAGE value="feat(init): 完善dubbo调用" />
+    <MESSAGE value="feat(init): 改类名" />
+    <MESSAGE value="feat(init): 修复问题" />
+    <MESSAGE value="feat(历史): 新增历史持久化" />
+    <MESSAGE value="feat(历史): 调整包结构" />
+    <MESSAGE value="feat(升级): 升级版本" />
+    <MESSAGE value="feat(升级): 新增icon" />
+    <MESSAGE value="feat(升级): 修复编辑异常" />
+    <MESSAGE value="feat(升级): 配置单元格不允许编辑" />
+    <MESSAGE value="feat(升级): 修改配置克隆方式" />
+    <MESSAGE value="feat(升级): 调整结构" />
+    <MESSAGE value="feat(升级): 异步调用" />
+    <MESSAGE value="feat(升级): 异步调用异常时显示异常栈" />
+    <MESSAGE value="feat(升级): 无参方法调用" />
+    <MESSAGE value="feat(升级): 添加注释" />
+    <MESSAGE value="feat(升级): 添加调用历史ui" />
+    <MESSAGE value="feat(升级): 添加调用历史逻辑" />
+    <MESSAGE value="feat(升级): 调整代码结构" />
+    <MESSAGE value="feat(升级): 新增保存" />
+    <MESSAGE value="feat(升级): 新增删除逻辑" />
+    <MESSAGE value="feat(升级): 修复问题" />
+    <MESSAGE value="feat(升级): init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(升级): init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.dubbo/dubbo/3.0.0/1c82728fb244b199038759495a200c37a67d92ae/dubbo-3.0.0-sources.jar!/org/apache/dubbo/common/Version.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/ClassFieldSelector.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/AbstractParser.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/AbstractParser.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/AbstractParser.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/AbstractParser.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/integration/RegistryProtocol.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/persistent/DubboCollectionPersistentState.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolSettingsConfigurable.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/table/TableModelEditor.class</url>
+          <line>223</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionModelEditor.class</url>
+          <line>124</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionModelEditor.class</url>
+          <line>120</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/table/TableModelEditor.class</url>
+          <line>115</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolDialogItemEditor.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="23" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="35" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.wiggin.dubbotool.domain.model.FieldInfoDO" memberName="fieldName" />
+        <PinnedItemInfo parentTag="javax.swing.tree.DefaultTreeModel" memberName="root" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

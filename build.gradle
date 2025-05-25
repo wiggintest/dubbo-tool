@@ -1,0 +1,65 @@
+plugins {
+    id("java")
+    id("org.jetbrains.intellij.platform") version "2.0.0"
+}
+
+group = "com.wiggin"
+version = "2.0.0"
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/central/' }
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url 'https://maven.aliyun.com/repository/google/' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+patchPluginXml {
+    sinceBuild.set("222")
+    untilBuild.set("251.*")
+}
+
+dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity("2024.3")
+        bundledPlugin("com.intellij.java")
+        pluginVerifier()
+        zipSigner()
+        instrumentationTools()
+    }
+    implementation('com.fasterxml.jackson.core:jackson-databind:2.17.2')
+    implementation("org.reflections:reflections:0.10.2")
+    implementation("com.101tec:zkclient:0.10") {
+        exclude group: 'org.slf4j'
+    }
+    implementation('com.alibaba:dubbo:2.5.5') {
+        exclude group: 'org.springframework'
+    }
+
+    implementation('org.javassist:javassist:3.20.0-GA')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.3'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.9.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.3'
+}
+
+
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xlint:unchecked', '-Xlint:deprecation', '-parameters']
+}
+tasks.withType(JavaExec) {
+    jvmArgs += ["--add-opens", "java.base/java.math=ALL-UNNAMED"]
+    jvmArgs += ["--add-opens", "java.base/java.lang=ALL-UNNAMED"]
+    jvmArgs += ["--add-opens", "java.base/java.security=ALL-UNNAMED"]
+    jvmArgs += ["--add-opens", "java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED"]
+}
+
+tasks.withType(Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+}
