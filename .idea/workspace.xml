@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27d04e4-4c9e-4110-b2f4-f3683db8979d" name="Changes" comment="feat(升级): init">
-      <change afterPath="$PROJECT_DIR$/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/wechat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/persistent/DubboCollectionPersistentState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/persistent/DubboCollectionPersistentState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +35,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -114,47 +94,7 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ide/IdeKeyboardFocusManager.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/ex/ActionUtil.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/impl/ActionButton.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/actionSystem/impl/ActionManagerImpl.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/options/Configurable.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/openapi/wm/ex/ToolWindowEx.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/CommonActionsPanel.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/PopupHandler.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/ui/ToolbarDecorator.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionItemEditor.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/CollectionModelEditor.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/app-client.jar!/com/intellij/util/ui/table/TableModelEditor.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/lib-client.jar!/com/jediterm/core/input/MouseEvent.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util-8.jar!/com/intellij/util/containers/OrderedSet.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util-8.jar!/kotlin/ResultKt.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/8.9/transforms/ca968ce37be3b3b236809f5f0ca1d227/transformed/ideaIC-2024.3/lib/util.jar!/com/intellij/util/messages/MessageBus.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/config/ReferenceConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/dubbo/DubboRegistryFactory.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/support/AbstractRegistryFactory.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperClient.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/remoting/zookeeper/zkclient/ZkclientZookeeperTransporter.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/rpc/service/GenericService.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/EventListener.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Component.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ActionEvent.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ItemEvent.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseEvent.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseListener.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/ComboBoxEditor.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/DefaultListModel.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/DefaultListSelectionModel.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComboBox.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JList.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JTextPane.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/event/ListSelectionEvent.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/text/JTextComponent.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/env/jdk-17.0.11.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/text/Style.java" root0="SKIP_INSPECTION" />
-  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$PROJECT_DIR$/../../../env/gradle-9.2.0" javaHome="$PROJECT_DIR$/../../../env/jdk-25.0.1.jdk/Contents/Home" gradleVersion="9.2.0" />
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -182,9 +122,14 @@
     "Gradle.dubbo-tool [build].executor": "Run",
     "Gradle.dubbo-tool [clean].executor": "Run",
     "Gradle.dubbo-tool [composedJar].executor": "Run",
+    "Gradle.dubbo-tool [runIde].executor": "Run",
+    "Gradle.dubbo-tool [testIdeUi].executor": "Run",
     "JUnit.Whole project.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "272",
     "git-widget-placeholder": "main",
@@ -195,10 +140,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -224,20 +169,7 @@
       <recent name="com.wiggin.dubbotool.domain.parser.support" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.dubbo-tool [buildPlugin]">
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiggin.dubbotool.util.User" />
-      <module name="com.wiggin.dubbo-tool.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiggin.dubbotool.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.dubbo-tool [runIde]">
     <configuration name="dubbo-tool [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -256,30 +188,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="dubbo-tool [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="dubbo-tool [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -300,8 +213,61 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo-tool [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo-tool [testIdeUi]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testIdeUi" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -314,21 +280,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dubbo-tool.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dubbo-tool.main" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.dubbo-tool [buildPlugin]" />
+        <item itemvalue="Gradle.dubbo-tool [runIde]" />
         <item itemvalue="Gradle.dubbo-tool [clean]" />
+        <item itemvalue="Gradle.dubbo-tool [testIdeUi]" />
+        <item itemvalue="Gradle.dubbo-tool [buildPlugin]" />
         <item itemvalue="JUnit.Whole project" />
-        <item itemvalue="Gradle.dubbo-tool [build]" />
-        <item itemvalue="Application.User" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -466,6 +443,9 @@
       <workItem from="1747580351803" duration="596000" />
       <workItem from="1747809644951" duration="591000" />
       <workItem from="1748151931781" duration="6808000" />
+      <workItem from="1763100615705" duration="4284000" />
+      <workItem from="1763427779895" duration="8421000" />
+      <workItem from="1773715937092" duration="483000" />
     </task>
     <task id="LOCAL-00007" summary="feat(init): 类型支持">
       <option name="closed" value="true" />
@@ -952,11 +932,6 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.5/44301a1d4ff3397bfeabe04b6d34f2739ac65a24/dubbo-2.5.5-sources.jar!/com/alibaba/dubbo/registry/integration/RegistryProtocol.java</url>
           <line>254</line>
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/persistent/DubboCollectionPersistentState.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/setting/DubboToolSettingsConfigurable.java</url>

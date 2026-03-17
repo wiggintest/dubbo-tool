@@ -49,6 +49,8 @@ public class DubboCollectionPersistentState implements PersistentStateComponent<
 //        XmlSerializerUtil.copyBean(dubboCollectionPersistentState, this);
     }
 
+    private static final int MAX_HISTORY_SIZE = 50;
+
     /**
      * 添加配置，使用头插入，保证最新操作在最前
      *
@@ -59,6 +61,10 @@ public class DubboCollectionPersistentState implements PersistentStateComponent<
         LinkedList<CollectionPersistentInfo> dubboInvokeVOS = collection.get(collectionTypeEnum.getType());
         // 头插入，确保最新的操作放在最前
         dubboInvokeVOS.addFirst(collectionPersistentInfo);
+        // 历史记录限制最多50条，超出则删除最老的
+        if (collectionTypeEnum == CollectionTypeEnum.HISTORY && dubboInvokeVOS.size() > MAX_HISTORY_SIZE) {
+            dubboInvokeVOS.removeLast();
+        }
     }
 
     /**

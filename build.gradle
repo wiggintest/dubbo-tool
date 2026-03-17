@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij.platform") version "2.0.0"
+    id("org.jetbrains.intellij.platform") version "2.10.4"
 }
 
 group = "com.wiggin"
@@ -12,6 +12,12 @@ repositories {
     maven { url 'https://maven.aliyun.com/repository/google/' }
     maven { url 'https://maven.aliyun.com/repository/jcenter/' }
     maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    // JetBrains 插件仓库镜像（国内可访问）
+    maven { url "https://maven.aliyun.com/repository/jetbrains" }
+
+    // IntelliJ Platform Releases
+    maven { url "https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases" }
+
     intellijPlatform {
         defaultRepositories()
     }
@@ -19,16 +25,17 @@ repositories {
 
 patchPluginXml {
     sinceBuild.set("222")
-    untilBuild.set("251.*")
+    untilBuild.set("252.*")
 }
 
 dependencies {
     intellijPlatform {
-        intellijIdeaCommunity("2024.3")
+        intellijIdeaCommunity("2025.2")
         bundledPlugin("com.intellij.java")
         pluginVerifier()
         zipSigner()
         instrumentationTools()
+        bundledPlugin("com.intellij.modules.json")
     }
     implementation('com.fasterxml.jackson.core:jackson-databind:2.17.2')
     implementation("org.reflections:reflections:0.10.2")
