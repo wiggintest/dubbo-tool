@@ -39,7 +39,6 @@ public class FieldParser extends AbstractParser {
             PsiClass psiClass = parameterInfoDO.getPsiClass();
             // list类型处理
             if (InheritanceUtil.isInheritor(psiClass, Collection.class.getCanonicalName())) {
-                // TODO list处理
                 this.handleCollection(psiClass, parameterInfoDO);
                 continue;
             }
@@ -71,6 +70,10 @@ public class FieldParser extends AbstractParser {
         List<FieldInfoDO> fieldInfoDOList = new ArrayList<>();
         PsiField[] fields = psiClass.getFields();
         for (PsiField field : fields) {
+            // 忽略序列化字段：serialVersionUID 和 transient 字段
+            if (isSerializationField(field)) {
+                continue;
+            }
             PsiType sourceType = field.getType();
             PsiType fieldType = getPsiType(field.getType());
             FieldInfoDO fieldInfoDO = new FieldInfoDO();
@@ -88,5 +91,20 @@ public class FieldParser extends AbstractParser {
             fieldInfoDO.setFieldInfoDOList(this.parsePsiFields(fieldPsiClass, currentDepth));
         }
         return fieldInfoDOList;
+    }
+
+    /**
+     * 判断是否为序列化相关字段
+     *
+     * @param field 字段
+     * @return 是否为序列化字段
+     */
+    private boolean isSerializationField(PsiField field) {
+        // 忽略 serialVersionUID
+        if ("serialVersionUID".equals(field.getName())) {
+            return true;
+        }
+        // 忽略 transient 字段
+        return field.getModifierList() != null && field.getModifierList().hasModifierProperty("transient");
     }
 }

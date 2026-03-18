@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.wiggin"
-version = "2.0.0"
+version = "2.1.0"
 
 repositories {
     maven { url 'https://maven.aliyun.com/repository/central/' }
@@ -25,7 +25,7 @@ repositories {
 
 patchPluginXml {
     sinceBuild.set("222")
-    untilBuild.set("252.*")
+    untilBuild.set("253.*")
 }
 
 dependencies {
