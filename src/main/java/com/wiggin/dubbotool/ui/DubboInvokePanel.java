@@ -94,11 +94,22 @@ public class DubboInvokePanel {
         HashMap<String, Object> panelText = new HashMap<>();
         panelText.put("parameterTypes", dubboInvokeVO.getParameterTypes());
         panelText.put("param", dubboInvokeVO.getParam());
-        JBSplitter mContentSplitter = new JBSplitter();
-        mContentSplitter.setProportion(0.5f);
         paramsField.writeDocumentText(JsonUtil.toJson(panelText));
         if (Objects.nonNull(dubboInvokeVO.getAddress())) {
-            address.getEditor().setItem(dubboInvokeVO.getAddress());
+            // 在列表中查找匹配的地址并选中
+            boolean found = false;
+            for (int i = 0; i < address.getItemCount(); i++) {
+                DubboToolSetting item = address.getItemAt(i);
+                if (item != null && dubboInvokeVO.getAddress().equals(item.getAddress())) {
+                    address.setSelectedIndex(i);
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                // 地址不在列表中，使用编辑器显示
+                address.getEditor().setItem(dubboInvokeVO.getAddress());
+            }
         } else {
             address.setSelectedIndex(0);
         }
