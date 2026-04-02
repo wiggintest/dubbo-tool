@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27d04e4-4c9e-4110-b2f4-f3683db8979d" name="Changes" comment="feat(升级): 修复选中历史无法调用问题">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a27d04e4-4c9e-4110-b2f4-f3683db8979d" name="Changes" comment="feat(升级): 忽略序列化字段">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/FieldParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/domain/parser/FieldParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/collection/AbstractCollectionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wiggin/dubbotool/ui/collection/AbstractCollectionPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +31,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dubbo-tool" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="intellij platform" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -113,6 +95,10 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -132,13 +118,14 @@
     "Gradle.dubbo-tool [:com.wiggin.dubbotool.test.TEst.main()].executor": "Run",
     "Gradle.dubbo-tool [:com.wiggin.dubbotool.util.JsonUtil.main()].executor": "Run",
     "Gradle.dubbo-tool [:com.wiggin.dubbotool.util.User.main()].executor": "Run",
-    "Gradle.dubbo-tool [buildPlugin].executor": "Debug",
+    "Gradle.dubbo-tool [buildPlugin].executor": "Run",
     "Gradle.dubbo-tool [build].executor": "Run",
     "Gradle.dubbo-tool [clean].executor": "Run",
     "Gradle.dubbo-tool [composedJar].executor": "Run",
-    "Gradle.dubbo-tool [runIde].executor": "Debug",
+    "Gradle.dubbo-tool [runIde].executor": "Run",
     "Gradle.dubbo-tool [testIdeUi].executor": "Run",
     "JUnit.Whole project.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -146,7 +133,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "272",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "feat-remove-history",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wiggin/dubbo/dubbo-tool/image",
     "node.js.detected.package.eslint": "true",
@@ -157,7 +147,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -183,7 +174,7 @@
       <recent name="com.wiggin.dubbotool.domain.parser.support" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.dubbo-tool [runIde]">
+  <component name="RunManager" selected="Gradle.dubbo-tool [buildPlugin]">
     <configuration name="dubbo-tool [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,6 +187,31 @@
         <option name="taskNames">
           <list>
             <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo-tool [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -284,16 +300,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="dubbo-tool.main" />
       <method v="2">
@@ -307,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.dubbo-tool [runIde]" />
         <item itemvalue="Gradle.dubbo-tool [buildPlugin]" />
+        <item itemvalue="Gradle.dubbo-tool [runIde]" />
+        <item itemvalue="Gradle.dubbo-tool [build]" />
         <item itemvalue="Gradle.dubbo-tool [clean]" />
         <item itemvalue="Gradle.dubbo-tool [testIdeUi]" />
-        <item itemvalue="JUnit.Whole project" />
       </list>
     </recent_temporary>
   </component>
@@ -461,15 +467,9 @@
       <workItem from="1763427779895" duration="8421000" />
       <workItem from="1773715937092" duration="4062000" />
       <workItem from="1773814821497" duration="357000" />
-      <workItem from="1773815190541" duration="716000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat(init): 字段解析">
-      <option name="closed" value="true" />
-      <created>1727425089765</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727425089765</updated>
+      <workItem from="1773815190541" duration="1235000" />
+      <workItem from="1773816442032" duration="1170000" />
+      <workItem from="1775108245421" duration="718000" />
     </task>
     <task id="LOCAL-00010" summary="feat(init): 完成字段解析展示">
       <option name="closed" value="true" />
@@ -855,7 +855,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773814861804</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat(升级): 忽略序列化字段">
+      <option name="closed" value="true" />
+      <created>1773815927074</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1773815927075</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -884,7 +892,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(init): dubbo 配置" />
     <MESSAGE value="feat(init): 完善dubbo调用" />
     <MESSAGE value="feat(init): 改类名" />
     <MESSAGE value="feat(init): 修复问题" />
@@ -909,7 +916,8 @@
     <MESSAGE value="feat(升级): init" />
     <MESSAGE value="feat(升级): 移除" />
     <MESSAGE value="feat(升级): 修复选中历史无法调用问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(升级): 修复选中历史无法调用问题" />
+    <MESSAGE value="feat(升级): 忽略序列化字段" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(升级): 忽略序列化字段" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

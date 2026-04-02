@@ -105,6 +105,14 @@ public abstract class AbstractCollectionPanel {
                 }
             }
         });
+        // 添加清空所有菜单
+        actionGroup.add(new AnAction("Clear All") {
+            @Override
+            public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
+                model.clear();
+                DubboCollectionPersistentState.getInstance().clearAll(collectionTypeEnum);
+            }
+        });
         // 注册弹出菜单
         PopupHandler popupHandler = new PopupHandler() {
 
