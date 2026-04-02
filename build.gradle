@@ -25,7 +25,7 @@ repositories {
 
 patchPluginXml {
     sinceBuild.set("222")
-    untilBuild.set("253.*")
+    untilBuild.set("261.*")
 }
 
 dependencies {
